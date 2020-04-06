@@ -20,6 +20,8 @@
     "gh-pages": "^2.1.1",
     "htmlhint": "^0.11.0",
     "jest": "^24.9.0",
+    "live-reload": "^1.1.0",
+    "live-server": "^1.2.1",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
   }

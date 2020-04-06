@@ -1,0 +1,45 @@
+* {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.main-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-card {
+    position: relative;
+}
+
+#numberCard {
+    background: none;
+    border: none;
+    font-size: 27px;
+    height: 40px;
+    left: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    outline: none;
+    top: 125px;
+    width: 350px;
+}
+
+input#numberCard::placeholder {
+    font-size: 25px;
+}
+
+#validateCard {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    left: 20px;
+    position: absolute;
+    top: 200px;
+}
