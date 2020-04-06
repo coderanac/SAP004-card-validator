@@ -1,4 +1,4 @@
-const numberCard = document.querySelector('#numberCard');
-const validateCart = document.querySelector('#validateCard');
+const buttonValidateCard = document.querySelector('#buttonValidateCard');
+const inputNumberCard = document.querySelector('#inputNumberCard');
 
-export { numberCard, validateCart };
+export { buttonValidateCard, inputNumberCard };
