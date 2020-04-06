@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="assets/icomoon/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="assets/icomoon/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-  <header class="main-header">
-    <h1>Wallet</h1>
-  </header>
-  <main class="main-box">
-    <section class="box-card">
-      <svg height="300" width="500">
-        <rect width="400" height="250" rx="20" ry="20" style="fill: #54D4FF; stroke: #4CBFE6; stroke-width: 3px;" />
-        <circle cx="360" cy="200" r="20" style="fill: #f7a13c;" />
-        <circle cx="330" cy="200" r="20" style="fill: #ed3f3c;" />
-        <text x="307" y="235">Mastercad</text>
-        <rect width="50" height="40" rx="10" ry="10" y="60" x="20"
-          style="fill: #E1E2E6; stroke: #4CBFE6; stroke-width: 1px;" />
-      </svg>
-      <input type="text" id="numberCard" maxlength="25" placeholder="XXXX . XXXX . XXXX . XXXX">
-      <button id="validateCard">Validar</button>
-    </section>
-  </main>
+  <body>
+    <header class="main-header">
+      <h1>Wallet</h1>
+    </header>
+    <main class="main-box">
+      <section class="box-card">
+        <svg height="300" width="400">
+          <rect width="400" height="250" rx="20" ry="20" style="fill: #54D4FF; stroke: #4CBFE6; stroke-width: 3px;" />
+          <circle cx="360" cy="200" r="20" style="fill: #f7a13c;" />
+          <circle cx="330" cy="200" r="20" style="fill: #ed3f3c;" />
+          <text x="307" y="235">Mastercad</text>
+          <rect width="50" height="40" rx="10" ry="10" y="60" x="20"
+            style="fill: #E1E2E6; stroke: #4CBFE6; stroke-width: 1px;" />
+        </svg>
+        <input type="text" class="inputNumberCard" id="inputNumberCard" placeholder="XXXX . XXXX . XXXX . XXXX">
+        <button id="buttonValidateCard">Validar</button>
+      </section>
+    </main>
 
-  <script src="scripts/index.js" type="module"></script>
-</body>
+    <script src="scripts/index.js" type="module"></script>
+  </body>
 
 </html>
