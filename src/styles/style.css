@@ -17,7 +17,7 @@
     position: relative;
 }
 
-#numberCard {
+.inputNumberCard {
     background: none;
     border: none;
     font-size: 27px;
@@ -30,16 +30,21 @@
     width: 350px;
 }
 
-input#numberCard::placeholder {
+.inputNumberCard::placeholder {
     font-size: 25px;
 }
 
-#validateCard {
+#buttonValidateCard {
     background: none;
     border: none;
     font-size: 20px;
     font-weight: 900;
     left: 20px;
     position: absolute;
+    outline: none;
     top: 200px;
+}
+
+#buttonValidateCard:hover {
+  color: #004A10;
 }
